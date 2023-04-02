@@ -1,0 +1,98 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/list/list.css);
+
+/*Миксы*/
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/link-hover/link-hover.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/selector/selector.css);
+@import url(../blocks/selector/__item/selector__item.css);
+@import url(../blocks/selector/__item/_active/selector__item_active.css);
+
+
+/*Блок Header*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/*Блок Lead*/
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__text/lead__text.css);
+@import url(../blocks/lead/__button/lead__button.css);
+@import url(../blocks/lead/__images/lead__images.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+/* Блок about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+
+/* Блок benefits */
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__block/benefits__block.css);
+@import url(../blocks/benefits/__block/_reverted/benefits__block_reverted.css);
+@import url(../blocks/benefits/__image/benefits__image.css);
+@import url(../blocks/benefits/__text/benefits__text.css);
+@import url(../blocks/benefits/__title/benefits__title.css);
+@import url(../blocks/benefits/__paragraph/benefits__paragraph.css);
+
+/* Блок choose-lead */
+@import url(../blocks/choose-lead/choose-lead.css);
+@import url(../blocks/choose-lead/__title/choose-lead__title.css);
+@import url(../blocks/choose-lead/__text/choose-lead__text.css);
+
+/* Блок variant */
+@import url(../blocks/variant/variant.css);
+@import url(../blocks/variant/__block/variant__block.css);
+@import url(../blocks/variant/__image/variant__image.css);
+@import url(../blocks/variant/__title/variant__title.css);
+@import url(../blocks/variant/__text/variant__text.css);
+@import url(../blocks/variant/__link/variant__link.css);
+@import url(../blocks/variant/__arrow/variant__arrow.css);
+
+/* Блок reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__person-name/reviews__person-name.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+
+/* Блок interiors */
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__image/interiors__image.css);
+@import url(../blocks/interiors/__title/interiors__title.css);
+@import url(../blocks/selector/_place-interiors/selector_place-interiors.css);
+@import url(../blocks/interiors/__list/interiors__list.css);
+@import url(../blocks/interiors/__list-item/interiors__list-item.css);
+@import url(../blocks/interiors/__list-item/_main/interiors__list-item_main.css);
+
+
+/* Блок footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/footer/__column/_booking/footer__column_booking.css);
+@import url(../blocks/footer/__column/_contacts/footer__column_contacts.css);
+@import url(../blocks/footer/__column/_copyright/footer__column_copyright.css);
+@import url(../blocks/footer/__column/_houses/footer__column_houses.css);
+@import url(../blocks/footer/__list-item/_phone-number/footer__list-item_phone-number.css);
+@import url(../blocks/link/_place-footer/link_place-footer.css);
+@import url(../blocks/footer/__info/footer__info.css);
