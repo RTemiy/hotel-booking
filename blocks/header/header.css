@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 41px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: calc(100% - 2*120px);
+}
+
+@media (max-width: 1279px) {
+  .header{
+    width: calc(100% - 2*64px);
+  }
+}
+
+@media (max-width: 860px) {
+  .header{
+    flex-direction: column;
+    gap: 32px;
+  }
+}

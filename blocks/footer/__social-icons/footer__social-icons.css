@@ -1,0 +1,8 @@
+.footer__social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+}

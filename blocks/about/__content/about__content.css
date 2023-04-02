@@ -1,0 +1,11 @@
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+  .about__content {
+    padding: 0 20px 0;
+  }
+}

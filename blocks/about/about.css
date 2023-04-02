@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  padding: 80px 0 80px;
+  max-width: 1200px;
+  margin: 0 226px 0 120px;
+  gap: 126px;
+}
+
+@media screen and (max-width: 1200px) {
+  .about {
+    gap: 30px;
+    padding: 80px 20px 80px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .about {
+    flex-direction: column;
+    max-width: 384px;
+    padding: 35px 0 35px;
+  }
+}
+

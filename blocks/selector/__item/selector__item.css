@@ -1,0 +1,12 @@
+.selector__item{
+  background: rgba(250, 176, 71, 0.35);
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  transition: background-color 0.5s ease;
+}
+
+.selector__item:hover{
+ background: #0E1734;
+ cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.variant__image {
+  width: 100%;
+  min-width: 176px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.variant__image:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 440px) {
+  .variant__image:hover{
+    transform: none;
+  }
+}

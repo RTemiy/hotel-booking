@@ -1,0 +1,13 @@
+.benefits__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 584px;
+  gap: 24px;
+}
+
+@media screen and (max-width: 860px) {
+  .benefits__text {
+    padding: 0 20px 0;
+  }
+}

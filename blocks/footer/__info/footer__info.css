@@ -1,0 +1,17 @@
+.footer__info {
+  display: flex;
+  gap: 95px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__info {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .footer__info {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

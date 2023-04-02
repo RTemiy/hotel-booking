@@ -1,0 +1,10 @@
+.benefits__block_reverted {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 860px) {
+  .benefits__block_reverted {
+    flex-direction: column;
+    max-width: 384px;
+  }
+}

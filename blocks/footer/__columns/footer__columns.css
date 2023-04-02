@@ -1,0 +1,20 @@
+.footer__columns {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 120px 120px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__columns {
+    padding: 116px 40px 120px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__columns {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+  }
+}

@@ -1,0 +1,13 @@
+.about__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(27/18);
+  padding: 28px 0 17px;
+}
+
+@media screen and (max-width: 860px) {
+  .about__text  {
+    padding: 20px 0 15px;
+  }
+}

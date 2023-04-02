@@ -1,0 +1,17 @@
+.benefits__block {
+  display: flex;
+  gap: 126px;
+}
+
+@media screen and (max-width: 1200px) {
+  .benefits__block {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .benefits__block {
+    flex-direction: column;
+    max-width: 384px;
+  }
+}

@@ -1,0 +1,24 @@
+.lead__images{
+  display: grid;
+  grid-column: 2;
+  grid-row: 1/-1;
+  margin: 0 auto;
+  gap: 24px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3,fit-content(180px));
+}
+
+@media (max-width: 1279px) {
+  .lead__images{
+    gap: 16px;
+    grid-row: 2/-1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead__images{
+    gap: 16px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

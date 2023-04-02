@@ -1,0 +1,11 @@
+.selector_place-interiors {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+}
+
+@media screen and (max-width: 520px) {
+  .selector_place-interiors {
+    display: none;
+  }
+}

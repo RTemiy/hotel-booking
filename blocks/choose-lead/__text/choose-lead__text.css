@@ -1,0 +1,10 @@
+.choose-lead__text{
+  width: 588px;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .choose-lead__text{
+    width: 100%;
+  }
+}

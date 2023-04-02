@@ -1,0 +1,16 @@
+.variant__link{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424F7B;
+  text-decoration: none;
+  align-self: start;
+  margin: auto 0 0 0 ;
+  padding: 32px 0 0 0;
+}
+
+@media (max-width: 440px) {
+  .variant__link{
+    padding: 32px 20px 0 20px;
+  }
+}
